@@ -1,0 +1,25 @@
+{
+    "name": "utxo-one/nostr-php",
+    "description": "A collection of use functions to use nostr with php",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "UtxoOne\\NostrPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "utxo.one",
+            "email": "github@utxo.one"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^2.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
